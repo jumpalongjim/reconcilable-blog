@@ -1,0 +1,6 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "Reconcilable Blog"
+theme = "twentyfourteen"
+[permalinks]
+    posts = "/:title/"
