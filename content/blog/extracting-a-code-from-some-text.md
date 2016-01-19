@@ -1,7 +1,7 @@
 +++
 title = "Extracting a code from some text"
 date = "2012-10-17T14:43:50"
-
+type = "post"
 +++
 ## Calculation functions in Reconcilable
 

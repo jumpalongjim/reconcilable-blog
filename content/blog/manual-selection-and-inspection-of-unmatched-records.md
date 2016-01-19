@@ -1,6 +1,7 @@
 +++
 title = "Manual selection and inspection of unmatched records"
 date = "2012-11-05T14:35:21"
+type = "post"
 
 +++
 This is the fourth entry in my series on aiming to make the best reconciliation software in the world. Previous ones were on sorting reconciliation items, useful filters when matching and finding transactions that sum to a value.
@@ -9,7 +10,7 @@ This is the fourth entry in my series on aiming to make the best reconciliation 
 
 When reconciling in Excel, a feature that many accountants use is the **Sum** value shown in the *Status Bar*:
 
-![Sum value shown in Excel's status bar](/img/excel-status-bar-sum.gif)
+{{< figure title="Sum value shown in Excel's status bar" src="/img/excel-status-bar-sum.gif" >}}
 
 This conveniently shows the sum of all numbers currently selected in the worksheet, and updates instantly as the selection changes. Therefore, as you click and drag with your mouse down a column of numbers you can know their total immediately. You’d probably use this to find out whether the selected numbers add up to a known sum, perhaps dragging up and down to include or exclude more numbers in the selection.
 

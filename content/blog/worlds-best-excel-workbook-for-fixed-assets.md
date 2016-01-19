@@ -1,6 +1,7 @@
 +++
 title = "World's best Excel Workbook for Fixed Assets"
 date = "2015-10-22T14:11:43"
+type = "post"
 [blackfriday]
     extensions = ["tables"]
 +++

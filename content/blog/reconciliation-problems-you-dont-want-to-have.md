@@ -1,6 +1,7 @@
 +++
 title = "Reconciliation problems you don't want to have"
 date = "2015-10-27T14:16:36"
+type = "post"
 
 +++
 Some organizations get into quite a mess by not doing their reconciliations. Take a look at a couple of recent news reports to see what I mean:

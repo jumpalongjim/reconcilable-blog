@@ -1,6 +1,7 @@
 +++
 title = "Reconciliation-specific transaction filtering"
 date = "2012-10-12T14:51:27"
+type = "post"
 
 +++
 The *Edit workspace* in Reconcilable is used to browse through reconciliation data and to edit matches one-by-one. (The reconciliation data itself can’t be edited of course.) *This post is part of the series the best reconciliation software in the world.*

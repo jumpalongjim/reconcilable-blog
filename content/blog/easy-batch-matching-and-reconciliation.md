@@ -1,6 +1,7 @@
 +++
 title = "Easy batch matching and reconciliation"
 date = "2012-11-26T14:30:15"
+type = "post"
 
 +++
 Recently, I wrote about matching batches of records using Reconcilable's *Match Finder* feature.

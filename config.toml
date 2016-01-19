@@ -1,6 +1,6 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://reconcilable.com/"
 languageCode = "en-us"
-title = "Reconcilable Blog"
-theme = "twentyfourteen"
+title = "Reconcilable"
+theme = "angels-ladder"
 [permalinks]
     posts = "/:title/"

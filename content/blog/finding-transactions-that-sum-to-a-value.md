@@ -1,6 +1,7 @@
 +++
 title = "Finding transactions that sum to a value"
 date = "2012-10-29T08:10:28"
+type = "post"
 +++
 *This is the third entry in my series on making the best reconciliation software in the world. Previous ones were on sorting reconciliation items and useful filters when matching.*
 
