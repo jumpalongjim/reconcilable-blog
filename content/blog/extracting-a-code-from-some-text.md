@@ -1,11 +1,11 @@
 +++
 title = "Extracting a code from some text"
 date = "2012-10-17T14:43:50"
-type = "post"
 +++
 ## Calculation functions in Reconcilable
 
 I’ll be the first to admit that Reconcilable’s column calculation function has ’til now been basic. In fact I originally developed it to solve a single problem:- calculate the net of values from separate debit and credit columns so that the net value could easily be used for matching.
+<!--more-->
 
 But out in the wild, you’re likely to have a wider range of uses for calculated columns, so I’m currently working on expanding the calculation repertoire. I’m starting with a clean slate for the new ‘function language’, which is great! It means I can design functions *specifically to suit reconciliation work*, so reconciliation-related tasks become much easier in Reconcilable than they are in generic data management tools such as Excel, Access or SQL.
 

@@ -1,12 +1,12 @@
 +++
 title = "Reconciliation-specific transaction filtering"
 date = "2012-10-12T14:51:27"
-type = "post"
 
 +++
 The *Edit workspace* in Reconcilable is used to browse through reconciliation data and to edit matches one-by-one. (The reconciliation data itself can’t be edited of course.) *This post is part of the series the best reconciliation software in the world.*
 
 Being determined to make Reconcilable the world’s best software for matching and reconciling, I want to make sure that each element of the user interface works as well as possible. So how could I make something mundane such as transaction filtering really fantastic? To answer that requires thinking about what it’s used for.
+<!--more-->
 
 ## Why filter rec transactions? 
 

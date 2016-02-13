@@ -1,6 +1,5 @@
-baseurl = "https://reconcilable.com/"
+baseurl = "http://localhost:5000/"
 languageCode = "en-us"
 title = "Reconcilable"
-theme = "angels-ladder"
 [permalinks]
     posts = "/:title/"

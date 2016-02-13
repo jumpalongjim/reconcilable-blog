@@ -1,0 +1,6 @@
+[home]
+  Name = "Home"
+  URL = "/"
+[pricing]
+  Name = "Pricing"
+  URL = "/pricing"

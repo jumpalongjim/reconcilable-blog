@@ -1,0 +1,38 @@
+{{ partial "bloghead" . }}
+{{ partial "blogheader" . }}
+<div class="container body-content">
+  <div class="row">
+    <div class="col-sm-8 blog-main">
+
+      <ul class="content list-unstyled">
+      {{ range $index, .Paginator.Pages }}
+        <li>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Date.Format "Jan 2, 2006" }}</p>
+          {{ .Summary }}
+
+          {{ if .Truncated }}
+          <p><small>
+            <a href="{{ .RelPermalink }}">Read More…</a>
+          </small></p>
+          {{ end }}
+        </li>
+      {{ end }}
+      </ul>
+
+      {{ if gt $.Paginator.TotalPages 1 }}
+      <nav>
+        <ul class="pagination">
+          {{ partial "pagination.html" . }}
+        </ul>
+      </nav>
+      {{ end }}
+
+    </div>
+    <div class="col-sm-3 col-cm-offset-1 blog-sidebar">
+      {{ partial "blog-sidebar" . }}
+    </div>
+  </div>
+</div>
+{{ partial "foot" . }}
+

@@ -1,12 +1,12 @@
 +++
 title = "Reconciliation problems you don't want to have"
 date = "2015-10-27T14:16:36"
-type = "post"
 
 +++
 Some organizations get into quite a mess by not doing their reconciliations. Take a look at a couple of recent news reports to see what I mean:
 
 > Other concerns raised by the assessment include … errors that were discovered while trying to perform a bank reconciliation. 
+<!--more-->
 
 > “It turns out that the discrepancy to the bank ledger is so vast that we couldn’t reconcile it,” Wanat said. “What that means is on your general ledger, you do not know if you have revenues due; you don’t know if there are expenses that are outstanding; … you don’t know your financial position.”
 

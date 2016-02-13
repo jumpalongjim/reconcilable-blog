@@ -1,7 +1,6 @@
 +++
 title = "Finding transactions that sum to a value"
 date = "2012-10-29T08:10:28"
-type = "post"
 +++
 *This is the third entry in my series on making the best reconciliation software in the world. Previous ones were on sorting reconciliation items and useful filters when matching.*
 
@@ -11,6 +10,7 @@ Match these transactions by value:
 
 ![Subset-sum unmatched](/img/subset-sum-unmatched.gif)
 
+<!--more-->
 These transactions match one-to-many, but the “receipts” don’t have any details that can be used to identify *which* match together with each “deposit”. (In this case, adding up the receipts by date doesn’t help.)
 
 We can’t use a one-to-many matching rule because there’s not enough detail for the rules engine to work with. However, matching manually is also a problem. Give it a go – how quickly can you find a match?

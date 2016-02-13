@@ -1,0 +1,45 @@
+div.plan
+{
+    border:solid 2px #FF5408;
+}
+div.plan h3
+{
+    font-size: 22px;
+    text-align: center;
+}
+div.plan p
+{
+    text-align: center;
+    margin-top:8px;
+}
+div.plan .price .curr
+{
+    vertical-align:super;
+    font-size:18px;
+    font-weight:normal;
+}
+div.plan p.price
+{
+    font-size:40px;
+    font-weight: bold;
+}
+div.plan ul
+{
+    margin-top: 8px;
+}
+div.plan li
+{
+    text-align: left;
+    margin-top: 12px;
+    padding-left: 0px;
+    margin-left:0px;
+}
+div.plan div.signup
+{
+    width:162px;
+    margin: 20px auto;
+}
+.orange
+{
+  color:white;background:#FF7F09;
+}

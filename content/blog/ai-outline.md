@@ -1,7 +1,6 @@
 +++
 date = "2016-01-13T18:10:23Z"
 title = "ai outline"
-type = "post"
 draft = true
 
 +++

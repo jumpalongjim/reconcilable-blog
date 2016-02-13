@@ -1,78 +1,53 @@
-{{ partial "header.html" . }}
-
-    <header>
-        <div class="row">
-            <div class="col span_6 logo">
-                <a href="/"> <img class="hires" alt="" src="/img/logo.png"/> </a>
-            </div>
-            <div class="col span_6 call_contact">
-                <p>Call us on +44 345 387 0011</p>
-            </div>
-        </div>
-        <div class="row">
-            <nav class="col span_12">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/pricing">Pricing</a></li>
-                    <li><a href="/blog">Blog</a></li>
-                    <li><a href="/login">Login</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-        
+{{ partial "head" . }}
+{{ partial "header" . }}
+<div class="jumbotron">
+  <div class="container">
+      
     <section class="row featured">
         <div class="col span_12" style="width:1160px;height:406px;padding:18px 12px;background-image:url('/img/reconsilo-banner.jpg')">
-            <h1>Reconciliation Software</h1>
-            <h2>Outgrown Excel?</h2>
-            <h3>
+            <h1 style="margin-top:0;color:white;font-size:40px;font-weight:bold;">Reconciliation Software</h1>
+            <h2 style="color:#ff5408;font-family:sans-serif;font-size:28px;line-height:1.2em;font-weight:bold;margin-bottom:0;text-shadow:1px 1px 4px #333;">Outgrown Excel?</h2>
+            <h3 style="color:#f4f4f4;font-family:sans-serif;font-size:18px;font-weight:normal;text-shadow:1px 1px 4px #333;line-height:1.6em;margin-top:6px;">
                 Switch to Reconcilable -<br>everything you need to<br>regain efficiency and control.
             </h3>
-            <div style="display:box;position:absolute;bottom:26px;left:14px;">
-                <a class="cssbtn orange" href="/pricing">
+            <div style="margin-top:60px;">
+                <a class="btn btn-lg" style="color:white;background:#FF7F09;" href="/pricing">
                     <p>See plans &amp; pricing.</p>
                     <p><small>The first 14 days are free!</small></p>
                 </a>
             </div>
         </div>
     </section>
-	
-	<div class="row services">
-		<div class="col span_12">
-			<div class="col span_4 nomargin">
-				<div class="wrapped">
-					<img src="/img/icon-lightning.png" alt="" class="left">
-					<h4>Huge time savings</h4>
-					<p>Spectacular efficiency through automation and our highly-tuned interface.</p>			
-				</div>
-			</div>
-			<div class="col span_4 nomargin">	
-				<div class="wrapped">
-					<img src="/img/icon-tick.png" alt="" class="left">
-                    <h4>Vital controls for compliance</h4>
-					<p>Robust, auditable control over your data and processes.</p>
-				</div>
-			</div>
-			<div class="col span_4 nomargin">	
-				<div class="wrapped">
-					<img src="/img/icon32-3.png" alt="" class="left">
-					<h4>Immediate deployment</h4>
-					<p>Start and configure a new reconciliation file in seconds.</p>			
-				</div>
-			</div>
-		</div>
-	</div>	
-
-<div class="row">
-    <div class="grid_12">
-        <h2>How Reconcilable works</h2>
-    </div>
+  </div>
 </div>
-<div class="row">
-    <div class="col span_4">
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="/img/icon-lightning.png" alt="" class="pull-left">
+      <h4>Huge time savings</h4>
+      <p>Spectacular efficiency through automation and our highly-tuned interface.</p>			
+    </div>
+    <div class="col-md-4">	
+      <img src="/img/icon-tick.png" alt="" class="pull-left">
+      <h4>Vital controls for compliance</h4>
+      <p>Robust, auditable control over your data and processes.</p>
+    </div>
+    <div class="col-md-4">	
+      <img src="/img/icon32-3.png" alt="" class="pull-left">
+      <h4>Immediate deployment</h4>
+      <p>Start and configure a new reconciliation file in seconds.</p>			
+    </div>
+  </div>
+
+  <div class="row">
+    <h2>How Reconcilable works</h2>
+  </div>
+  <div class="row">
+    <div class="col-md-0">
         <!-- video 1 -->
     </div>
-    <div class="col span_5">
+    <div class="col-md-9">
         <h3>Capture and control data</h3>
         <p>
             Reconcilable accepts your data as it is, reducing the need for up-stream processing or <em>ETL</em> tools.
@@ -81,50 +56,49 @@
             being controlled.
         </p>
     </div>
-</div>
-<div class="row">
-    <div class="col span_4">
-        <!-- video 2 -->
-    </div>
-    <div class="col span_5">
-        <h3>Match in bulk, no sweat</h3>
-        <p>Fast, accurate auto-matching handles your data effortlessly. Processing is entirely under your control: matching rules
-            are flexible, but are built with the ease of drag-and-drop.</p>
-    </div>
-</div>
-<div class="row">
-    <div class="col span_4">
-        <!-- video 3 -->
-    </div>
-    <div class="col span_5">
-        <h3>Edit to perfection</h3>
-        <p>The slick interface helps you work efficiently to inspect, review and edit your data.</p>
-        <p>Precise, individual matching and un-matching for when your data is incomplete or problematic.</p>
-    </div>
-</div>
-<div class="row">
-    <div class="col span_4">
-        <!-- video 4 -->
-    </div>
-    <div class="col span_5">
-        <h3>Report and export</h3>
-        <p>Tailor reports to meet your needs, then save them for re-use. View on screen or use one-click export to Excel.
-            Build report books to deliver a complete report pack in a single action.</p>
-    </div>
-</div>
+  </div>
+  <div class="row">
+      <div class="col-md-0">
+          <!-- video 2 -->
+      </div>
+      <div class="col-md-9">
+          <h3>Match in bulk, no sweat</h3>
+          <p>Fast, accurate auto-matching handles your data effortlessly. Processing is entirely under your control: matching rules
+              are flexible, but are built with the ease of drag-and-drop.</p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-0">
+          <!-- video 3 -->
+      </div>
+      <div class="col-md-9">
+          <h3>Edit to perfection</h3>
+          <p>The slick interface helps you work efficiently to inspect, review and edit your data.</p>
+          <p>Precise, individual matching and un-matching for when your data is incomplete or problematic.</p>
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-0">
+          <!-- video 4 -->
+      </div>
+      <div class="col-md-9">
+          <h3>Report and export</h3>
+          <p>Tailor reports to meet your needs, then save them for re-use. View on screen or use one-click export to Excel.
+              Build report books to deliver a complete report pack in a single action.</p>
+      </div>
+  </div>
 
-<div class="row">
-        <a class="cssbtn orange square" href="http://reconcilable.com/pricing" style="margin-right:20px;">
-            <span class="large">See plans and pricing!</span>
-            Fast-start, great value
-        </a>
-</div>
+  <div class="row">
+    <a class="btn btn-warning btn-lg" href="/pricing" style="margin-right:20px;">
+        See plans and pricing!  Fast-start, great value
+    </a>
+  </div>
 
-<div class="row">
+  <div class="row">
     <h2>What you can reconcile with Reconcilable</h2>
-</div>
-<div class="row">
-    <div class="col span_4">
+  </div>
+  <div class="row">
+    <div class="col-md-4">
         <ul>
             <li><a>Bank reconciliation</a></li>
             <li><a>Credit card reconciliation</a></li>
@@ -132,7 +106,7 @@
             <li><a>Cash reconciliation</a></li>
         </ul>
     </div>
-    <div class="col span_5">
+    <div class="col-md-4">
         <ul>
             <li><a>Statement reconciliation</a></li>
             <li><a>Position reconciliation</a></li>
@@ -141,7 +115,7 @@
             <li><a>Creditor reconciliation</a></li>
         </ul>
     </div>
-    <div class="col span_4">
+    <div class="col-md-4">
         <ul>
             <li><a>Stock reconciliation</a></li>
             <li><a>Securities reconciliation</a></li>
@@ -156,7 +130,7 @@
 </div>
 
 <div class="row">
-    <div class="col span_8">
+    <div class="">
         <h3>Meet compliance imperatives</h3>
         <p>
             Improves Sarbanes-Oxley compliance through audit trails, process tracking and reporting.
@@ -168,7 +142,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col span_8">
+    <div class="">
         <h3>Increase productivity and efficiency</h3>
         <p>
             Manual processing in Excel or Access, or grappling with an inflexible enterprise system,
@@ -179,7 +153,7 @@
     </div>
 </div>
 <div class="row">
-    <div class="col span_8">
+    <div class="">
         <h3>Reduce errors, reduce risk</h3>
         <p>
             Automated matching is not only fast, but also accurate, leading directly to fewer errors
@@ -188,7 +162,7 @@
     </p></div>
 </div>
 <div class="row">
-    <div class="col span_8">
+    <div class="">
         <h3>Immediate deployment</h3>
         <p>
             Reconcilable is independent of any other system and does not require any server-based
@@ -200,9 +174,10 @@
 </div>
 
 <div class="row">
-    <a class="cssbtn orange square" href="http://reconcilable.com/pricing">Choose a plan. Get the first 14 days free!</a>
+    <a class="btn btn-warning btn-lg" href="/pricing">Choose a plan. Get the first 14 days free!</a>
 </div>
+</div>	
 
-        </div>
-    </div>
-{{ partial "footer.html" . }}
+</div>
+</div>
+{{ partial "foot" . }}

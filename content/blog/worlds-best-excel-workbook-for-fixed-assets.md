@@ -1,13 +1,13 @@
 +++
 title = "World's best Excel Workbook for Fixed Assets"
 date = "2015-10-22T14:11:43"
-type = "post"
-[blackfriday]
-    extensions = ["tables"]
+permalink = "worlds-best-excel-workbook-for-fixed-assets"
+
 +++
 It’s been 7 or 8 years since I finished constructing my fixed assets workbook. It’s still in regular use and continues to do its job of recording assets, calculating depreciation and providing the reports for my accounts.
 
 A long stretch of accurate operation without any need for tinkering or correcting, in the field of fixed asset workbooks at least, is cause for satisfaction. I’ve used some less successful designs in the past, as you may have too, so I’m making mine publicly available now in case you want to make use of it.
+<!--more-->
 
 *But is it the best fixed assets workbook in the world?*
 

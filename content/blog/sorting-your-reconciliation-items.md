@@ -1,10 +1,10 @@
 +++
 title = "Sorting your reconciliation items"
 date = "2012-10-02T00:36:34"
-type = "post"
 
 +++
 Reviewing reconciliation data and searching for matching items are where most user’s time is spent when using reconciliation software, so for a great user experience it’s vital that these tasks are efficient. Since making great reconciliation software is my aim, I’ve gone to great lengths to perfect Reconcilable’s Edit workspace.
+<!--more-->
 
 This is the first in a series of posts on how the design of Reconcilable’s Edit workspace works towards making it the best reconciliation software in the world. See the whole series here.
 

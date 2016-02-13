@@ -1,0 +1,16 @@
+<div class="col-md-4 plan">
+  <h3>Essential</h3>
+  <div>
+    <p class="price"><span class="curr">$</span>15</p>
+    <p>monthly per user</p>
+  </div>
+  <ul>
+    {{ range .Site.Data.Menu }}
+    <li>{{ .Title }}</li>
+    {{ end }}
+    <li>Unlimited reconciliations</li>
+    <li>All Reconcilable features</li>
+    <li>500 records per rec period</li>
+  </ul>
+  <div class="signup"><a class="cssbtn orange square" href="/newaccount?planId=1">Start free trial &gt;&gt;</a></div>
+</div>

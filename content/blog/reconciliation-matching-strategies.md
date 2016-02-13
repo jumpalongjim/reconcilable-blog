@@ -1,13 +1,14 @@
 +++
 date = "2015-11-27T08:10:17Z"
 title = "reconciliation matching strategies"
-type = "post"
+draft = "true"
 
 +++
 
 How would you go about reconciling two sets of data?
 
 Computers may be fast, but when looking for matches amongst a million records or more the matching process is not going to be completed immediately. So the strategy used could make a significant difference.
+<!--more-->
 
 Let's assume that you have two printed sets of records, a notepad and a pen. What would be the best way to proceed?
 

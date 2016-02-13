@@ -1,5 +1,5 @@
 +++
 title = ""
 date = ""
-type = "post"
+type = "blog"
 +++
