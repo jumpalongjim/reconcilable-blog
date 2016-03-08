@@ -1,6 +1,6 @@
-[home]
-  Name = "Home"
-  URL = "/"
-[pricing]
+[1tour]
+  Name = "Tour"
+  URL = "/tour"
+[2pricing]
   Name = "Pricing"
   URL = "/pricing"

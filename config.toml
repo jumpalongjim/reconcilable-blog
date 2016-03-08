@@ -1,6 +1,6 @@
-baseurl = "http://reconcilableweb.azurewebsites.net/"
+baseurl = "https://reconcilable.com/"
 languageCode = "en-us"
-title = "Reconcilable"
+title = "Reconcilable.com"
 [permalinks]
     posts = "/:title/"
 [blackfriday]
